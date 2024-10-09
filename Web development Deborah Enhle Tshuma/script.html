@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> TechPro Academy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ 
+
+
+  <script>
+  
+    let category = this.value;
+    let courses = document.querySelectorAll('.course');
+    document.getElementById('category-filtering').addEventListener('change', function() {
+    courses.forEach(course => {
+        if (category === 'all' || course.dataset.category === category) {
+            course.style.display = 'block';
+        } 
+		else 
+		{
+            course.style.display = 'none';
+        }
+    });
+});
+  </script>
+</body>
+</html>

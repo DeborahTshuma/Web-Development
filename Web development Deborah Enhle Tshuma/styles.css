@@ -1,0 +1,295 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-size: cover;
+	background-attachment:fixed;
+	background-position: center;
+	background-position: center;
+    background-color: rgba(255,255,255,0.8);
+	border-radius: 10px;
+}
+
+h1, h2, h3 {
+    color: #333;
+	background-color: #f0f0f0;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 20px 0;
+	padding: 10px;
+	border-bottom: 2px solid #ccc;
+}
+
+header {
+    text-align: center;
+    padding: 30px 10px;
+    background-color: #333;
+    color: white;
+}
+
+header h1 {
+    font-size: 36px;
+	margin-bottom: 10px;
+	
+}
+header nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+header nav ul li{
+	margin: 0; 15px;
+}
+
+header nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111;
+}
+
+.list ul li{
+	
+	padding: 20px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.featured-courses {
+    padding: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.featured-courses h2 {
+    font-size: 2.5em;
+    color: #444;
+}
+.course {
+    display: inline-block;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    vertical-align: top;
+	flex-direction: column;
+	text-align: center;
+	align-items:center;
+}
+
+.course img {
+	
+    width: 100%;
+	height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+	align-items:center;
+	display: block;
+	
+}
+
+.course h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.course  p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+
+#category-filter {
+    padding: 10px;
+    margin: 20px;
+    font-size: 1.1em;
+}
+
+
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 2em;footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 10px;
+}
+    margin-bottom: 10px;
+    color: #555;
+}
+
+section p, section ul {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+marquee {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+success-stories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.success-stories img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+#contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info img {
+    margin-right: 10px;
+}
+
+.contact-info:hover {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin-right: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.social-links a:hover {
+    color: #337ab7;
+}
+
+
+.fab {
+    font-size: 24px;
+    width: 40px;
+    text-align: center;
+}
+
+footer {
+   
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
